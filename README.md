@@ -6,6 +6,10 @@ Ipinga is a minimal bash based script that does passive Icinga2 checks via the I
 
 I have an Icinga2 server and I like to make remote checks that needs to be executed on the remote host. I feel that installing, configuring and running an Icinga client and all Nagios plugins are to heavy, especially in small containers.
 
+## Project status
+
+Experimental
+
 ## Installation
 
 Run `./install.sh` as root to deploy it to `/opt/ipinga`. Systemd services called  `ipinga-root.service` and `ipinga-user.service` will also be installed.
